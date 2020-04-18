@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <AssemblyName>ExoLINQ1</AssemblyName>
+        <RootNamespace>ExoLINQ1</RootNamespace>
+    </PropertyGroup>
+
+</Project>

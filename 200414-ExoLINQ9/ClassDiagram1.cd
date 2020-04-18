@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="ExoLINQ9.Cart">
+    <Position X="9.75" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAEAAAAAAAAAAAAQAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Cart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExoLINQ9.City">
+    <Position X="2.75" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAEAAAAAAQAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>City.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExoLINQ9.Country">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAEAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Country.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExoLINQ9.Factories">
+    <Position X="12.5" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAEAEAAAAAAAAQBAAAAAAAAAAAAEAAEABAACAAAAAA=</HashCode>
+      <FileName>Factories.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExoLINQ9.Monument">
+    <Position X="5" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ABACAAABAAAAAAAEAAAAAAQAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Monument.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExoLINQ9.Product">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAIAAAQAAAAAEAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Product.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExoLINQ9.Program">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <AssociationLine Name="_countries" Type="ExoLINQ9.Country">
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="-2.046" Y="0.091" Height="0.182" Width="1.884" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="_carts" Type="ExoLINQ9.Cart" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="2" Y="0.647" />
+        <Point X="10.75" Y="0.647" />
+        <Point X="10.75" Y="2.5" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.058" Y="1.643" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="_cities" Type="ExoLINQ9.City" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="2" Y="1.307" />
+        <Point X="3.625" Y="1.307" />
+        <Point X="3.625" Y="2.5" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="0.037" Y="0.987" Height="0.182" Width="1.377" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="_monuments" Type="ExoLINQ9.Monument" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="2" Y="1.087" />
+        <Point X="6" Y="1.087" />
+        <Point X="6" Y="2.5" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.079" Y="1.175" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="_products" Type="ExoLINQ9.Product" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="2" Y="0.867" />
+        <Point X="8.25" Y="0.867" />
+        <Point X="8.25" Y="2.5" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.058" Y="1.393" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEEAAAAAAIAIAAAAAAAAAAAAAoAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="_countries" />
+      <Field Name="_carts" />
+      <Field Name="_cities" />
+      <Field Name="_monuments" />
+      <Field Name="_products" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
