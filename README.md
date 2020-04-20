@@ -1,6 +1,10 @@
 IFA .NET Department - April 2020
 ================================
 
+## 2020-04-20 #2
+
+* Adding exercices 3 and 4 about Entity Framework from 2020-04-20.
+
 ## 2020-04-20 #1
 
 * Adding exercices 1 and 2 about Entity Framework from 2020-04-17.
