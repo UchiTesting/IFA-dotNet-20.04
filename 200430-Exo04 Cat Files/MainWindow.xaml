@@ -1,0 +1,19 @@
+﻿<Window x:Class="_200430_Exo04_Cat_Files.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_200430_Exo04_Cat_Files"
+        mc:Ignorable="d"
+        Title="CAT for Windows WPF." Height="450" Width="800">
+   <DockPanel>
+      <ListBox x:Name="LbFileList" SelectionMode="Extended" HorizontalAlignment="Left" Height="419" VerticalAlignment="Top" Width="100" SelectionChanged="LbFileList_SelectionChanged" DockPanel.Dock="Left"/>
+      <UniformGrid DockPanel.Dock="Top" Height="20" Rows="1">
+         <Button x:Name="BtnOpenFiles" Content="ファイルを開ける" Margin="0" Click="BtnOpenFiles_Click"/>
+         <Button x:Name="BtnOpenInDialogs" Content="選んだファイル新たな窓に開ける" Margin="0" Click="BtnOpenInDialogs_Click" MinHeight="20" />
+         <Button x:Name="BtnSaveMultiInFile" Content="マルチ・ファイルを保存する" Margin="0" Click="BtnSaveMultiInFile_Click"/>
+      </UniformGrid>
+      <TextBox x:Name="TxbContent" Margin="0" TextWrapping="Wrap" VerticalAlignment="Top" DockPanel.Dock="Bottom" MinHeight="400"/>
+
+   </DockPanel>
+</Window>

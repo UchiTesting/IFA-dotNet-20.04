@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="_200423_ExoEntity5.Factories.AbstractFactory" Collapsed="true">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAgAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factories\AbstractFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_200423_ExoEntity5.Factories.CartFactory" Collapsed="true">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAoAAAAAAAAA=</HashCode>
+      <FileName>Factories\CartFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_200423_ExoEntity5.Factories.CityFactory" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factories\CityFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_200423_ExoEntity5.Factories.MonumentFactory" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factories\MonumentFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_200423_ExoEntity5.Factories.ProductFactory" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAgAAAAAAAAA=</HashCode>
+      <FileName>Factories\ProductFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_200423_ExoEntity5.Migrations.StatisticsChange20200423N001" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAMAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAI=</HashCode>
+      <FileName>Migrations\202004230843248_StatisticsChange20200423N001.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="_200423_ExoEntity5.Migrations.AddedCartProdAssociation" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAMAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAI=</HashCode>
+      <FileName>Migrations\202004270744533_AddedCartProdAssociation.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="_200423_ExoEntity5.Migrations.Configuration" Collapsed="true">
+    <Position X="11.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Migrations\Configuration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_200423_ExoEntity5.Objects.Cart" Collapsed="true">
+    <Position X="13.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAQACAAAAAAEAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Objects\Cart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_200423_ExoEntity5.Objects.CartProductAssociation" Collapsed="true">
+    <Position X="15" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAACAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAIgAAACAA=</HashCode>
+      <FileName>Objects\CartProductAssociation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_200423_ExoEntity5.Objects.City" Collapsed="true">
+    <Position X="9.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Objects\City.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_200423_ExoEntity5.Objects.Monument" Collapsed="true">
+    <Position X="13.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAQAAAAAAIQAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Objects\Monument.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_200423_ExoEntity5.Objects.Product" Collapsed="true">
+    <Position X="15" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAQAAABAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Objects\Product.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_200423_ExoEntity5.ApplicationContext" Collapsed="true">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAQAAAECAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>ApplicationContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_200423_ExoEntity5.Program">
+    <Position X="9.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_200423_ExoEntity5.Statistics" Collapsed="true">
+    <Position X="11.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAgAAAACAQAQEBAAAAAECACAAAAAAAAAAAAAAIYAAKQ=</HashCode>
+      <FileName>Statistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="_200423_ExoEntity5.Enums.CityNameEnum" Collapsed="true">
+    <Position X="9.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAEAEIAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums\CityNameEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="_200423_ExoEntity5.Enums.MonumentNameEnum" Collapsed="true">
+    <Position X="11.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAYAAAAAABAAAAAACAAAAA=</HashCode>
+      <FileName>Enums\MonumentNameEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="_200423_ExoEntity5.Enums.ProductTypeEnum" Collapsed="true">
+    <Position X="13.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAEAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums\ProductTypeEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
